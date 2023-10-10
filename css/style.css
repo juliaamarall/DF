@@ -5,6 +5,8 @@
     padding: 0;
     color: white;
 }
+/* root das cores e fonte */
+
 
 .variação-logo{
     width: 10%;
@@ -35,22 +37,37 @@ body{
     /* logo */
 .img-logo{
     margin-left: 2.5em;
-    width: 15%;
-    height: 20%;
-    object-fit: cover;
 }
 
-.navbar-nav .nav-link{
-    position: relative;
-    right: 25%;
+#caixa01 > .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ .nav-link{
     font-size: 1.2em;
-    margin: .5em;
-    
+    margin-right: .5em;
+    transition: 0.5s;
+    color: white;
+
 }
 
-.navbar-nav> a::after{
+ .navbar-brand{
+    width: 10em;
+}
+
+.navbar-nav {
+    margin-right: 5em;
+}
+
+
+.navbar-nav > .nav-link:hover{
+    color: #ac0000;
+}
+
+/* .navbar-nav > a::after{
     content: " ";
-    width: 0%;
+    width: 0;
     height: 4px;
     background-color:#ac0000 ;
     position: absolute;
@@ -61,7 +78,7 @@ body{
  }
 .navbar-nav > a:hover::after{
     width: 100%; 
- }
+ } */
 
  /* estilo da seção QUEM SOMOS? */
 
