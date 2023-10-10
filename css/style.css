@@ -1,98 +1,144 @@
 /* Estilos Gerais (majus) */
 
-*{
+* {
     margin: 0;
     padding: 0;
     color: white;
 }
 
-.variação-logo{
+.variação-logo {
     width: 10%;
     height: 100%;
     object-fit: cover;
 }
 
-hr{
+hr {
     background-color: white;
 }
 
-i{
+i {
     color: #ac0000;
 }
 
-.white-c{
+.white-c {
     color: white;
 }
 
 /* fim dos estilos gerais */
 
-body{
+body {
     color: white;
     background-color: black;
 }
 
 /* estilo da navbar */
-    /* logo */
-.img-logo{
+/* logo */
+.img-logo {
     margin-left: 2.5em;
     width: 15%;
     height: 20%;
     object-fit: cover;
 }
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
     position: relative;
     right: 25%;
     font-size: 1.2em;
     margin: .5em;
-    
+
 }
 
-.navbar-nav> a::after{
+.navbar-nav>a::after {
     content: " ";
     width: 0%;
     height: 4px;
-    background-color:#ac0000 ;
+    background-color: #ac0000;
     position: absolute;
     bottom: 0px;
     left: 0;
-    transition:0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 
- }
-.navbar-nav > a:hover::after{
-    width: 100%; 
- }
+}
 
- /* estilo da seção QUEM SOMOS? */
+.navbar-nav>a:hover::after {
+    width: 100%;
+}
 
- .q-somos{
+/* estilo da seção QUEM SOMOS? */
+
+.q-somos {
     display: flex;
     align-items: center;
     border-bottom: 2px solid #ffff;
- }
+}
 
- .q-somos > h2{
+.q-somos>h2 {
     font-size: .5em;
- }
+}
 
- .q-somos > .logo-v{
-   display: flex;
-   justify-content: flex-end;
- }
+.q-somos>.logo-v {
+    display: flex;
+    justify-content: flex-end;
+}
 
-.bloco-01 > div{
-margin-top: 1.5em;
-  
+.bloco-01>div {
+    margin-top: 1.5em;
+
 }
 
 /* missão / valores / visão */
 
-#mvv{
+#mvv {
     margin-top: 5em;
 }
 
+/* seção dos produtos */
+
+.products {
+    margin-bottom: 5em;
+}
+
+.container .card {
+    background-color: #ac0000;
+    width: 13em;
+    height: 23em;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5em;
+}
+
+.container .card img {
+    width: 3.5em;
+    margin-top: 0.5em;
+}
+
+.container .card .card-body .btn {
+    background-color: #fff;
+    color: #ac0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.container .card #img {
+    width: 9.7em;
+}
+
+#products {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.pregos {
+    height: 10em;
+    object-fit: cover;
+}
+
 /* footer */
-#footer{
+#footer {
     height: 200px;
     background-image: url(../imgs/imageF.png);
     background-repeat: no-repeat;
@@ -104,16 +150,13 @@ margin-top: 1.5em;
     flex-direction: column;
     padding: 2em;
     text-align: left;
-  
+
 }
 
-.footer-end{
+.footer-end {
     transition: 0.5s;
 }
 
-.footer-end p:hover{
+.footer-end p:hover {
     color: red;
 }
-
-
-
