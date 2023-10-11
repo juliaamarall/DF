@@ -95,7 +95,7 @@ body {
 /* seção dos produtos */
 
 .products {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .container .card {
@@ -135,6 +135,25 @@ body {
 .pregos {
     height: 10em;
     object-fit: cover;
+}
+
+.container .compra {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.container .compra .btn {
+    background-color: #fff;
+    color: #ac0000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .compra .btn:hover {
+    transition: 0.7s;
+    background-color: #ac0000;
+    color: #fff;
 }
 
 /* footer */
