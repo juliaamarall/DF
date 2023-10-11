@@ -98,14 +98,28 @@ body {
     margin-bottom: 3em;
 }
 
-.container .card {
-    background-color: #ac0000;
-    width: 13em;
-    height: 23em;
+#products {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.img{
+    width: 100%;
+    margin: 1em;
+}
+
+/* .container .card {
+    background-image: linear-gradient(to left, white, #ac0000);
+    width: 20em;
+    height: 10em;
     display: flex;
+    flex-direction: row;
     align-items: center;
     border-radius: 1.5em;
-}
+    border: none;
+} 
+
+
 
 .container .card img {
     width: 3.5em;
@@ -127,15 +141,10 @@ body {
     width: 9.7em;
 }
 
-#products {
-    margin-top: 3em;
-    margin-bottom: 2em;
-}
-
 .pregos {
     height: 10em;
     object-fit: cover;
-}
+}*/
 
 .container .compra {
     display: flex;
