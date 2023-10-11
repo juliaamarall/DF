@@ -108,61 +108,29 @@ body {
     margin: 1em;
 }
 
-/* .container .card {
-    background-image: linear-gradient(to left, white, #ac0000);
-    width: 20em;
-    height: 10em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 1.5em;
-    border: none;
-} 
-
-
-
-.container .card img {
-    width: 3.5em;
-    margin-top: 0.5em;
-}
-
-.container .card .card-body .btn {
-    background-color: #fff;
-    color: #ac0000;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em;
-}
-
-.container .card #img {
-    width: 9.7em;
-}
-
-.pregos {
-    height: 10em;
-    object-fit: cover;
-}*/
-
-.container .compra {
+.container .vermais {
     display: flex;
     justify-content: center;
     margin-top: 3em;
 }
 
-.container .compra .btn {
+.container .vermais .btn {
     background-color: #fff;
     color: #ac0000;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.container .compra .btn:hover {
+.container .vermais .btn:hover {
     transition: 0.7s;
     background-color: #ac0000;
     color: #fff;
+}
+
+@media screen and (max-width: 575px){
+    .img{
+        width: 93%;
+    }
 }
 
 /* footer */
